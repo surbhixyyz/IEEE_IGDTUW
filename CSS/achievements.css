@@ -1,0 +1,76 @@
+.heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.heading h {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+
+}
+
+
+.subheading {
+    display: inline-block;
+    justify-content: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 3px;
+
+}
+
+
+.subheading p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #777C8D;
+}
+
+
+.years {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding:0;
+}
+
+.years li {
+    display: inline-block;
+    font-size: 20px;
+   
+}
+
+.years li a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+    padding: 6px 40px;
+
+}
+
+.years li a:hover {
+    background: #6889FF;
+    border-radius: 20px;
+    color: #F5F5F5;
+}
+
+
+@media only screen and (max-width: 554px){
+
+.years li a{
+    padding: 6px 30px;
+}}
